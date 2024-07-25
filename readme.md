@@ -19,4 +19,5 @@ Far comparire gli indirizzi email solamente quando sono stati tutti generati.
 4- definire variabile email 
 5- in created richiamare il metodo per generare gli indirizzi
 6- in methods definire la funzione (arrow function) per generare 10 indirizzi mail
-    6.1 richiamare axios ed inserire l'EndPoint
+    6.1 ciclo for per generare esattamente 10 indirizzi email
+    6.2 richiamare axios ed inserire l'EndPoint

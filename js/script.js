@@ -13,16 +13,16 @@ createApp({
 
        } 
     },
-    // created() {
-    //     this.generateEmail();
-    // },
+     created() {
+         this.generateEmail();
+     },
     methods: {
         generateEmail() {
-            axios.get('https://flynn.boolean.careers/exercises/api/random/mail').then((response) => {
-                console.log(response.data);
-                console.log(response.data.response);
-                this.email = response.data.response
-            })
+            for (let i = 0; i < 10; i++) {
+                axios.get('https://flynn.boolean.careers/exercises/api/random/mail').then((resp) => {
+                    console.log(resp.data)
+                })
+            }
         }
     }
 }).mount('#app');
