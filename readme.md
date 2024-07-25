@@ -14,3 +14,4 @@ Far comparire gli indirizzi email solamente quando sono stati tutti generati.
 <!-- CODICE -->
 
 Strutturazione dello scaffolding base
+Struttura statica del layout
