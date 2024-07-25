@@ -36,17 +36,8 @@
                     <div class="col-12">
                         <div class="content-main p-3 mt-3 rounded">
                             <button class="btn btn-sm btn-primary mb-3" @click="generateEmail()">Genera una Mail</button>
-                            <ul class="list-group list-group-flush lista-mail">
+                            <ul class="list-group list-group-flush lista-mail" v-if="emailList.length == 10">
                                 <li v-for="mail, index in emailList" class="list-group-item">{{ mail }}</li>
-                                <!-- <li class="list-group-item">prova</li>
-                                <li class="list-group-item">prova</li>
-                                <li class="list-group-item">prova</li>
-                                <li class="list-group-item">prova</li>
-                                <li class="list-group-item">prova</li>
-                                <li class="list-group-item">prova</li>
-                                <li class="list-group-item">prova</li>
-                                <li class="list-group-item">prova</li>
-                                <li class="list-group-item">prova</li> -->
                               </ul>
                         </div>
                     </div>
